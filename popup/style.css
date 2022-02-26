@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&family=Oswald:wght@300&family=Roboto+Mono:wght@500;700&family=Roboto+Serif:ital,wght@1,500&display=swap');
+
+:root {
+	--shade-0: #0f0c0f;
+	--shade-1: #16232e;
+	--shade-2: #164c45;
+	--shade-3: #cc8d1a;
+	--shade-4: #e3c75f;
+	--shade-5: #bda523;
+}
+
+body {
+	width: 300px;
+	height: 125px;
+
+	background-color: var(--shade-0);
+	font-family: 'Roboto Mono', monospace;
+}
+
+header {
+	box-shadow: 0px 0px 0px 2px var(--shade-1), 0px 0px 0px 4px var(--shade-2),
+		0px 0px 0px 6px var(--shade-3), 0px 0px 0px 8px var(--shade-4);
+	border-radius: 2px;
+	text-align: center;
+	margin: 20px 20px 0 20px;
+	background-color: black;
+}
+
+main {
+	margin: 20px 20px 0 20px;
+	color: lightgray;
+}
+
+footer {
+	position: fixed;
+	bottom: 5px;
+	height: fit-content;
+	width: calc(100% - 20px);
+}
+
+div {
+	display: flex;
+	height: 25px;
+}
+
+a {
+	display: block;
+	text-align: center;
+	margin: auto;
+}
+
+label {
+	font-size: 14px;
+	text-align: center;
+}
+
+select {
+	flex-grow: 1;
+	margin-left: 10px;
+}
+
+option {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+h1 {
+	color: whitesmoke;
+	font-size: 17px;
+	padding: 5px 0 5px 0;
+}

@@ -1,0 +1,29 @@
+{
+	"name": "linguee-pop-up",
+	"manifest_version": 2,
+
+	"author": "misrepresenting",
+	"version": "dev",
+
+	"background": {
+		"page": "background-page.html"
+	},
+
+	"icons": {
+		"16": "assets/pluginIcon.svg",
+		"32": "assets/pluginIcon.svg"
+	},
+
+	"browser_action": {
+		"default_icon": "assets/pluginIcon.svg",
+		"default_popup": "popup/index.html"
+	},
+
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{daf44bf7-a45e-4450-979c-91cf07434c3d}"
+		}
+	},
+
+	"permissions": ["storage", "contextMenus"]
+}
